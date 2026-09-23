@@ -79,7 +79,7 @@ app.use(session({
   }
 }));
 app.use(express.static(path.join(__dirname, "public")));
-
+app get slash, (req, res)=>,res.sendFile path.join (__dirname, 'public', 'index.html')`.
 const registrationLimiter = rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 30,
